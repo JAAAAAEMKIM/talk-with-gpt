@@ -1,0 +1,24 @@
+{
+  "name": "talk-with-gpt",
+  "version": "1.0.0",
+  "description": "Chrome extension to talk with Chat GPT",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chrome-types": "^0.1.178",
+    "typescript": "^5.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JAAAAAEMKIM/talk-with-gpt.git"
+  },
+  "author": "JAAAAAEMKIM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JAAAAAEMKIM/talk-with-gpt/issues"
+  },
+  "homepage": "https://github.com/JAAAAAEMKIM/talk-with-gpt#readme"
+}

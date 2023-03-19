@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./popup.css" />
+    <link rel="stylesheet" href="./global.css" />
+  </head>
+  <body>
+    <div class="popup_header">
+      <h1>Talk with GPT</h1>
+    </div>
+
+    <div class="popup_content">
+      <div class="config_item">
+        <label>API KEY</label>
+        <div class="input_wrap">
+          <input id="api_key_input" />
+          <button id="save_api_key">Save</button>
+          <button id="edit_api_key">Edit</button>
+        </div>
+      </div>
+
+      <div class="config_item">
+        <label>Language</label>
+        <select id="language_select">
+          <option lang="en" value="en-US" >English</option>
+          <option lang="en" value="ko-KR" >Korean</option>
+          <option lang="en" value="ja-JP" >Japanese</option>
+        </select>
+      </div>
+
+      <div class="config_item">
+        <label>TTS</label>
+        <select id="tts_select" disabled></select>
+      </div>
+    </div>
+
+    <div class="popup_footer">
+      <button id="start_conversation" disabled>Start Conversation</button>
+    </div>
+  </body>
+  <script src="../src/popup.js"></script>
+</html>

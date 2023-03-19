@@ -1,0 +1,39 @@
+body .popup_header {
+  height: 60px;
+}
+
+body .popup_content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px 0;
+}
+
+body .popup_footer {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.config_item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.config_item .input_wrap {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+.config_item label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.config_item input,
+.config_item select {
+  border: none;
+  height: 32px;
+  width: 100%;
+}
