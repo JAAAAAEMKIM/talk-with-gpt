@@ -8,6 +8,7 @@
   height: 100vh;
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999999;
 }
 
 #talk-gpt-modal-bg h1 {
